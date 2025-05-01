@@ -79,10 +79,9 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://scholar.harvard.edu/haitongma">
-      <span class="icon">
+      <!-- <span class="icon">
           <i class="fas fa-home"></i>
-      </span>
+      </span> -->
       </a>
       
       <!-- <div class="navbar-item has-dropdown is-hoverable">
@@ -125,51 +124,9 @@
 
           <h2 class="subtitle is-3 publication-subtitle">
             Reinforcement Learning with Diffusion Policy for Multi-Task Contact-Rich Manipulation </h2>
-
-          <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- PDF Link. -->
-              <!-- <span class="link-block">
-                <a href="https://scholar.harvard.edu/haitongma/files/repr-il-online-report.pdf"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                  </span>
-                  <span>Paper</span>
-                </a>
-              </span> -->
-              <!-- <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span> -->
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-              </span> -->
-              <!-- Code Link. -->
-              <!-- <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code: to be published soon</span>
-                  </a>
-              </span> -->
-              <!-- Dataset Link. -->
-            </div>
-
+          
+          <div class="is-size-5 publication-authors">
+            Anonymous submission to CoRL 2025
           </div>
         </div>
       </div>
@@ -177,21 +134,50 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
+
+<section class="hero teaser">
+  <div class="hero-body">
+    
+    <div class="container is-max-desktop">
+      <div class="colum is-centered">
+        <div class="columns is-centered has-text-centered">
+          <div>
+          </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <div class="container is-max-desktop">
+            <div class="hero-body">
+              <h2 class="subtitle has-text-centered">
+                <strong>TL;DR:</strong> We train <strong> a single diffusion policy </strong> to solve multi-task block pushing.
+              </h2>
+              <video id="teaser" autoplay muted loop playsinline width="70%">
+                <source src="./static/videos/grid_slow.mp4"
+                        type="video/mp4">
+              </video>
+              <h2 class="subtitle has-text-centered">
+                Trained policy in Simulation.
+              </h2>
+              <!-- <video id="teaser" autoplay muted loop playsinline width="45%">
+                <source src="./static/videos/grid_random_goal.mp4"
+                        type="video/mp4">
+              </video> -->
+              <video id="teaser" autoplay muted loop playsinline width="100%">
+                <source src="./static/videos/speed_combined.mp4"
+                        type="video/mp4">
+              </video>
+              <h2 class="subtitle has-text-centered">
+                Zero-shot sim-to-real transfer to real-world block pushing with variable shapes, frictions, block weights, goal positions.
+              </h2>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</section> -->
+</section>
 
 
 <!-- <section class="hero is-light is-small">
@@ -254,7 +240,6 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -323,59 +308,6 @@
       </div>
       </div>
     </div>
-
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Implementations on the Unitree Go2 Quadrupeds</h2>
-        <div class="publication-video">
-          <iframe src="https://scholar.harvard.edu/sites/scholar.harvard.edu/files/haitongma/files/repr_il_video_v2.mp4"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <h3 class="title is-3">Snapshots and Trajctories</h3>
-    </div> -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="content has-text-justified">
-          <img src="static/images/blender_simulator.png">
-          <div class="content has-text-centered">
-            Simulator Controller
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-quarter">
-        <div class="content has-text-justified">
-          <img src="static/images/blender-sim-to-real.png">
-          <div class="content has-text-centered">
-            Sim-to-Real Controller
-          </div>
-        </div>
-      </div>
-      <div class="column is-one-third">
-        <div class="content has-text-justified">
-          <img src="static/images/3dtraj_takeoff_proposal.png">
-          <div class="content has-text-centered">
-            3D Trajectories
-          </div>
-        </div>
-      </div>
-    </div> -->
-    
-    <!--/ Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h3 class="title is-3">Video - Trajectory Tracking</h2>
-        <div class="publication-video">
-          <iframe src="https://scholar.harvard.edu/sites/scholar.harvard.edu/files/haitongma/files/figure_eight.mp4"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
   </div>
 </div>
 
